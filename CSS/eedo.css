@@ -1,0 +1,17 @@
+#back{
+    background-image: url(1n.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.a{
+    color: darkgoldenrod;
+    font-size: 20px;
+
+}
+.b{
+    background-color: red;
+    color:white;
+    float: right;
+    margin-bottom: 100px;
+    
+}

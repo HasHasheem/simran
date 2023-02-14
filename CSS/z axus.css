@@ -1,0 +1,21 @@
+.a{
+    
+    position: relative;
+    z-index: 3;
+}
+.b{
+    height: 250px;
+    width: 150px;
+    position: relative;
+    background-color:black;
+    bottom: 330px;
+    color: white;
+    z-index: 2;
+}
+.b:hover{
+    visibility: hidden;
+}
+
+.a:hover{
+    z-index: 1;
+}

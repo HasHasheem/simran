@@ -1,0 +1,17 @@
+h1{
+    background-color: blue;
+}
+h3,h4{
+    background-color: yellow;
+}
+
+.a{
+    background-color: cyan;
+}
+#b{
+    background-color: orangered;
+}
+
+*{
+background-color: black;
+}

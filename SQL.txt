@@ -1,0 +1,128 @@
+SQL
+SQL> SELECT COUNT(DEPTNO) FROM EMP;
+
+COUNT(DEPTNO)
+-------------
+           14
+
+SQL> SELECT COUNT(ENAME) FROM EMP WHERE ENAME LIKE '%Z%';
+
+COUNT(ENAME)
+------------
+           0
+
+SQL> SELECT COUNT(ENAME) FROM EMP WHERE ENAME LIKE '%$%';
+
+COUNT(ENAME)
+------------
+           0
+
+SQL> SELECT SUM(SAL) FROM EMP WHERE  JOB='CLERK' AND DEPTNO=30;
+
+  SUM(SAL)
+----------
+       950
+
+SQL> SELECT MAX(SAL) FROM EMP WHERE JOB='ANALYST';
+
+SQL> SELECT AVG(SAL) FROM EMP WHERE JOB='CLERK';
+
+  AVG(SAL)
+----------
+    1037.5
+
+  MAX(SAL)
+----------
+      3000
+
+SQL> SELECT COUNT(DISTINCT SAL) FROM EMP;
+
+COUNT(DISTINCTSAL)
+------------------
+                12
+
+SQL> SELECT COUNT(JOB) FROM EMP;
+
+COUNT(JOB)
+----------
+        14
+
+14/12/22                           ///group by//
+
+
+SQL> select count(ename) from emp where job NOT IN 'PRESIDENT';
+
+COUNT(ENAME)
+------------
+          13
+
+SQL> SELECT SUM(SAL) FROM EMP GROUP BY JOB;
+
+  SUM(SAL)
+----------
+      4150
+      5600
+      5000
+      8275
+      6000
+
+SQL> SELECT COUNT(ENAME) FROM EMP WHERE JOB='MANAGER' GROUP BY DEPTNO;
+
+COUNT(ENAME)
+------------
+           1
+           1
+           1
+
+SQL> SELECT AVG(SAL) FROM EMP WHERE DEPTNO NOT IN 20 GROUP BY DEPTNO;
+
+  AVG(SAL)
+----------
+1566.66667
+2916.66667
+
+SQL> SELECT COUNT(ENAME) FROM EMP WHERE ENAME LIKE '%A%' GROUP BY JOB;
+
+COUNT(ENAME)
+------------
+           3
+           2
+           2
+
+SQL> SELECT COUNT(ENAME),AVG(SAL) FROM EMP WHERE SAL>2000 GROUP BY DEPTNO;
+
+COUNT(ENAME)   AVG(SAL)
+------------ ----------
+           1       2850
+           3 2991.66667
+           2       3725
+
+SQL> SELECT COUNT(ENAME),MAX(SAL) FROM EMP GROUP BY JOB;
+
+COUNT(ENAME)   MAX(SAL)
+------------ ----------
+           4       1300
+           4       1600
+           1       5000
+           3       2975
+           2       3000
+
+SQL> SELECT SUM(SAL) FROM EMP WHERE JOB='SALESMAN' GROUP BY DEPTNO;
+
+  SUM(SAL)
+----------
+      5600
+
+SQL> SELECT MAX(SAL) FROM EMP GROUP BY DEPTNO;
+
+  MAX(SAL)
+----------
+      2850
+      3000
+      5000
+
+SQL> SELECT COUNT(sal) from emp;
+
+COUNT(SAL)
+----------
+        14

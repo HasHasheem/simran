@@ -1,0 +1,62 @@
+.a{
+    display: flex;
+    list-style-type: none;
+    text-decoration-style: none;
+    margin-left: 600px;
+    gap: 60px;
+    margin-top: -40px;
+    color:white;
+    font-size: 17px;
+    background-color: grey;
+}
+
+#home{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://img.freepik.com/free-photo/chicken-wings-barbecue-sweetly-sour-sauce-picnic-summer-menu-tasty-food-top-view-flat-lay_2829-6471.jpg?w=2000);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: grey;
+}
+
+.u{
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+}
+h1{
+    font-size: 100px;
+    
+    color:white;
+
+}
+h3{
+    font-size: 40px;
+    padding-top:-900px;
+    color:white ;
+}
+input{
+    font-size: 15px;
+}
+h2{
+    color: whitesmoke;
+}
+.po{
+    background-color: grey;
+}
+.l{
+    border-radius: 70px;
+}
+.s{
+    border-radius: 70px;
+}
+.y{
+    border-radius: 70px;
+}
+.l:hover{
+    height: 210px;
+}
+.s:hover{
+    height: 210px; 
+}
+.y:hover{
+    height: 210px;
+}

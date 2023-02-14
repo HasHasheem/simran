@@ -1,0 +1,36 @@
+
+.c{
+    height: 400px;
+    width: 400px;
+    background-color: yellow;
+    background-image: linear-gradient(to right,black,white);
+    border-radius: 50%;
+
+}
+
+div{
+    height: 400px;
+    width: 400px;
+    background-color: yellow;
+    background-image: repeating-linear-gradient(to right,yellow 10%,orange 20%);
+    
+}
+.a{
+    height: 400px;
+    width: 400px;
+    background-color: blue;
+    background-image: repeating-radial-gradient(orange,yellow,green,blue);
+}
+.b:hover{
+    width: 400px;
+    height: 400px;
+    background-color: yellowgreen;
+    background-image: repeating-conic-gradient(orange 90deg ,yellow -40deg ,green 120deg,lightgreen 20deg);
+    animation: abc 4s infinite;
+    border-radius: 50%;
+}
+@keyframes abc{
+    50%{
+        transform: rotate(360deg);
+    }
+}

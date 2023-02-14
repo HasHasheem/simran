@@ -1,0 +1,15 @@
+#a{
+    animation: abc  4s infinite;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREQF_pl6oP-b3Bvny9R3JJKOPuPO-q0eYeTw&usqp=CAUs");
+background-repeat: no-repeat;
+}
+@keyframes abc {
+100%{background-color: aqua;
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    border: 10px solid blue;
+    
+
+}
+}  

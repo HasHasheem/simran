@@ -1,0 +1,125 @@
+#has{
+    background-image: url("https://b.zmtcdn.com/mx-onboarding-hero87f77501659a5656cad54d98e72bf0d81627911821.webp");
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    background-color: grey;
+}
+.a{
+    padding-top: 0px;
+    font-size: 30px;
+    color:beige;
+   
+   
+}
+a:hover{
+    color: yellow;
+    font-style: italic;
+}
+a{
+    color: white;
+    font-size: 20px;
+   
+    text-decoration: none;
+    padding-top: 30px;
+    padding: 110px;
+
+
+ 
+    
+}
+h1{
+    color: gold;
+    font-size: 35px;
+}
+h2{
+    color: white;
+    font-size: 25px;
+}
+.c{
+    background-color: transparent;
+    border: 1px solid orange;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;font-family:'Times New Roman', Times, serif;
+
+}
+.c:hover{
+    background-color: yellow;
+    color: black;
+}
+li{
+    padding-top: 32px;
+}
+
+.content1{
+    color: crimson;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+   
+
+}
+.img1{
+    border-radius: 50%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  
+    margin-left: 200px;
+    
+
+}
+#about{
+    background-color: black;
+    display: flex;
+}
+.img1:hover{
+    filter: grayscale();
+    
+}
+.b{
+    color: yellow;
+    border-radius: 10px;
+    background-color: black;
+}
+.content2{
+    height: 500px;
+    width: 500px;
+    color:white;
+    font-size: 20px;
+    font-style: italic;
+    margin-left: 50px;
+}
+#Food{
+    background-color: darkgoldenrod;
+    display: flex;
+    
+}
+.img2{
+    border-radius: 1px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  
+    margin-left: 200px;
+}
+.content3{
+    color:yellow ;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}  
+.img3{
+    padding-left: 300px;
+}
+
+#events{
+    background-color: black;
+    display: flex;
+} 
+.content3{
+    color: orange;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
