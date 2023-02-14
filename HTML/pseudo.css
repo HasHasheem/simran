@@ -1,0 +1,21 @@
+a:link{
+    color:red;
+    font-size: 100px;
+}
+a:visited{
+    color:green;
+}
+a:active{
+    color:yellow;
+}
+a:hover{
+    color:aqua;
+}
+h1{
+    margin:500px;
+    padding: 100px;
+    border:10px solid blue;
+    background-color: pink;
+transform: rotate(90deg);
+   
+}

@@ -1,0 +1,53 @@
+h1{
+margin: 500px;
+padding: 100px;
+border: 10px solid blue;
+transform: rotate(324deg);
+background-color: yellow;
+animation:has 4s infinite;
+}
+@keyframes has {
+    190%{transform: skewX(98deg);}
+    52%{transform: scaley(-224deg);}   
+}
+
+h2{
+    margin: 500px;
+    padding: 100px;
+    border: 10px solid blue;
+    transform: skew(135deg);
+    background-color: yellow;
+    animation:abc 4s infinite;
+    transform: scale(220deg);
+    }
+
+    @keyframes abc {
+        50%{transform: rotateX(124deg);}
+        50%{transform: rotateY(124deg);}   
+    }
+    h3{
+        margin: 500px;
+        padding: 100px;
+        border: 10px solid red;
+        background-color: black;
+        transform: scaleX(2.7);
+        color: white;
+        animation:e 4s infinite;
+    
+        }
+        @keyframes e {
+            75%{transform: skewX(120deg);}
+            19%{transform: skewY(-220deg);}
+        
+            
+        }
+        h1:hover{
+            width: 200px;
+            height: 300px;
+            color: yellow;
+            background-color: blue;
+            border: 10px solid red;
+            animation:abc 4s infinite;
+            box-shadow: 30px 20px 10px cyan;
+        }
+       
